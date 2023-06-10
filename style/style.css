@@ -25,6 +25,7 @@ body{
     height: 90vh;
     background-image: url(../assets/carta.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     text-align: center;
     align-items: center;
@@ -32,12 +33,12 @@ body{
 .dedicacao{
     display: flex;
     flex-direction: column;
-    padding-top: 165px;
+    padding-top: 190px;
     align-items: center;
     justify-content: center;
 
 }
-@keyframes coracao{
+@keyframes coracao {
     0% {width: 80px;}
     25% {width: 60px;}
     50% {width: 55px;}
@@ -47,8 +48,13 @@ a > img{
     width: 60px;
     margin-top: 15px;
 }
+span{
+    font-size: 16px;
+    color: red;
+}
 .coracao{
     animation: coracao infinite;
+    
 }
 
 /* -------------------------------------------------
@@ -96,10 +102,11 @@ nav > a:hover{
     margin: 50px  0 0 10vw;
     text-align: center;
     border: 1px solid #fff;
+    text-shadow: rgba(0, 0, 0, 0.753) 0px 3px 24px;;
     color: #fff;
     font-weight: 900;
-    background-color: #aaaaaa71;
-    padding: 2rem;
+    background-color: #aaaaaa71; 
+    padding: 1rem; 
     position: absolute;
     /* margin:40vw 30vw; */
 }
@@ -177,7 +184,13 @@ nav > a:hover{
     background-color: #fff;
     width: 200px;
     border-radius: 50px;
+    border: 0.5px solid #999;
     margin: 20px auto 0;
+    transform: translateY(25px);
+}
+hr{
+    width: 80vw;
+    margin: 0 auto;
 }
 .momento{
     margin: 2rem 4rem;
