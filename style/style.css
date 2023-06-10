@@ -7,6 +7,12 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-image: url(../assets/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 87%;
+}
 /* -------------------------------------------------
             MENU
 ------------------------------------------------- */
@@ -112,9 +118,11 @@ nav > a:hover{
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #fff;
-    margin-top: 20px;
+    width: 200px;
+    border-radius: 50px;
+    margin: 20px auto 0;
 }
 .momento{
     margin: 2rem 4rem;
