@@ -1,3 +1,5 @@
+/* @import url(resposivo.css);
+@import url(animacoes.css); */
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,42 @@ body{
     background-attachment: fixed;
     background-position-y: 87%;
 }
+/* -------------------------------------------------
+            PÁGINA INICIAL
+------------------------------------------------- */
+.carta{
+    width: 50vw;
+    min-width: 350px;
+    margin: 50px auto;
+    height: 90vh;
+    background-image: url(../assets/carta.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+.dedicacao{
+    display: flex;
+    flex-direction: column;
+    padding-top: 165px;
+    align-items: center;
+    justify-content: center;
+
+}
+@keyframes coracao{
+    0% {width: 80px;}
+    25% {width: 60px;}
+    50% {width: 55px;}
+    100% {width: 60px;}    
+}
+a > img{
+    width: 60px;
+    margin-top: 15px;
+}
+.coracao{
+    animation: coracao infinite;
+}
+
 /* -------------------------------------------------
             MENU
 ------------------------------------------------- */
@@ -51,14 +89,14 @@ nav > a:hover{
     justify-content: center;
 }
 .msg{
-    max-width: 500px;
-    width: 60vw;
+    min-width: 300px;
+    width: 40vw;
     gap:3rem;
     /* font-size: 2.2vw; */
-    margin: 50px  0 0 40vw;
+    margin: 50px  0 0 10vw;
     text-align: center;
     border: 1px solid #fff;
-    color: #000;
+    color: #fff;
     font-weight: 900;
     background-color: #aaaaaa71;
     padding: 2rem;
@@ -68,14 +106,22 @@ nav > a:hover{
 .msg h2{
     font-size: 60px;
 }
-.msg p{
-    font-size: 22px;
+.thanks{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 2rem 3rem 1em;
+}
+@media screen and (max-width:900px){
+    .msg{
+        width: 70vw;
+        margin: 1rem;
+    }
 }
 /* -------------------------------------------------
             FOTOS / MENSSAGENS
 ------------------------------------------------- */
 .conteiner{
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
     display: flex;
     align-items: center;
     gap: 7vw;
@@ -110,6 +156,15 @@ nav > a:hover{
 }
 .texto{
     max-width: 500px;
+}
+@media screen and (max-width:900px){
+    .conteiner{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .rev{
+        flex-direction: column;
+    }
 }
 /* -------------------------------------------------
            MOMENTOS

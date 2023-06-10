@@ -1,0 +1,12 @@
+a > img{
+    width: 60px;
+    margin-top: 15px;
+    animation: coracao infinite; 
+}
+@keyframes coracao {
+    0% {width: 80px;}
+    25% {width: 60px;}
+    50% {width: 55px;}
+    100% {width: 60px;}
+    
+}
