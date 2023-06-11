@@ -82,6 +82,7 @@ header{
     background-color: lightcoral;
     color: white;
     padding: 1rem 3rem;
+    font-size: 35px;
     justify-content: space-between;
     max-width: 100vw;
 }
@@ -260,6 +261,9 @@ hr{
     padding: 1rem;
     gap: 25px;
 }
+.momento p{
+    font-size: 25px;
+}
 @media screen and (max-width:430px) {
     
     .momento{
@@ -356,6 +360,74 @@ hr{
 #top2Card4{
     background-image: url(../assets/img/20-maggio-A-Parma/IMG-20220525-WA0017.jpg);
     background-position-y: 20%;
+}
+#top3Card1{
+    background-image: url(../assets/img/20-maggio-A-Parma/IMG-20220525-WA0005.jpg);
+    /* background-position-y: 20%; */
+}
+#top3Card2{
+    background-image: url(../assets/img/20-maggio-A-Parma/IMG-20220525-WA0008.jpg);
+    background-position-y: 20%;
+}
+#top3Card3{
+    background-image: url(../assets/img/20-maggio-A-Parma/IMG-20220525-WA0009.jpg);
+    /* background-position-y: 20%; */
+}
+#top3Card4{
+    background-image: url(../assets/img/6-maggio-cena-con-kiky/20220506_234910.jpg);
+    /* background-position-y: 20%; */
+}
+#top3Card5{
+    background-image: url(../assets/img/22-maggio-nel-fiume/IMG-20220525-WA0014.jpg);
+    /* background-position-y: 20%; */
+}
+#top3Card6{
+    background-image: url(../assets/img/22-maggio-nel-fiume/IMG-20220525-WA0020.jpg);
+    /* background-position-y: 20%; */
+}
+#top3Card7{
+    background-image: url(../assets/img/25-aprile-a-Bologna/IMG-20220425-WA0006.jpg);
+    /* background-position-y: 20%; */
+}
+#top3Card8{
+    background-image: url(../assets/img/25-aprile-a-Bologna/IMG-20220425-WA0012.jpg);
+    background-position-y: 27%;
+}
+#top3Card9{
+    background-image: url(../assets/img/25-aprile-a-Bologna/IMG-20220425-WA0011.jpg);
+    background-position-y: 90%;
+}
+#top3Card10{
+    background-image: url(../assets/img/7-maggio-nel-castello/IMG-20220525-WA0023.jpg);
+    /* background-position-y: 90%; */
+}
+#top3Card11{
+    background-image: url(../assets/img/7-maggio-nel-castello/IMG-20220525-WA0032.jpg);
+    /* background-position-y: 90%; */
+}
+#top3Card12{
+    background-image: url(../assets/img/20-maggio-A-Parma/IMG-20220525-WA0022.jpg);
+    /* background-position-y: 90%; */
+}
+#top4Card1{
+    background-image: url(../assets/img/IMG-20220718-WA0004.jpg);
+    background-position-y: 5%;
+}
+#top4Card2{
+    background-image: url(../assets/img/IMG-20220818-WA0034.jpg);
+    background-position-y: 5%;
+}
+#top5Card1{
+    background-image: url(../assets/img/Bianca-in-brazil/20230221_141442.jpg);
+    /* background-position-y: 5%; */
+}
+#top5Card2{
+    background-image: url(../assets/img/Bianca-in-brazil/20230221_132519.jpg);
+    /* background-position-y: 5%; */
+}
+#top5Card3{
+    background-image: url(../assets/img/Bianca-in-brazil/20230225_155901.jpg);
+    /* background-position-y: 5%; */
 }
 /* -------------------------------------------------
            RODAPÉ
