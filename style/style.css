@@ -22,9 +22,9 @@ p{
             PÁGINA INICIAL
 ------------------------------------------------- */
 .carta{
-    width: 70vw;
+    width: 60vw;
     min-width: 350px;
-    margin: 50px auto;
+    margin: 25px auto;
     height: 90vh;
     background-image: url(../assets/carta.jpg);
     background-size: cover;
@@ -39,7 +39,7 @@ p{
 .dedicacao{
     display: flex;
     flex-direction: column;
-    padding-top: 35vh;
+    padding-top: 28vh;
     align-items: center;
     justify-content: center;
 }
@@ -53,7 +53,7 @@ p{
     }
     
 }
-@keyframes coracao {
+ @keyframes coracao {
     0% {width: 80px;}
     25% {width: 60px;}
     50% {width: 55px;}
@@ -68,7 +68,8 @@ span{
     color: rgb(179, 4, 4);
 }
 .coracao{
-    animation: coracao infinite;
+    animation: coracao infinite ease-in-out;
+    
     
 }
 
