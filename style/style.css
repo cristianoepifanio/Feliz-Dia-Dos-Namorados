@@ -30,7 +30,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y:center;
-    background-position-x:65%;
+    background-position-x:75%;
     text-align: center;
     align-items: center;
     /* padding-top: 470px; */
@@ -122,6 +122,7 @@ nav > a:hover{
     background-size: cover;
     background-position:center; 
     justify-content: center;
+    /* z-index: 6; */
 }
 .msg{
     /* min-width: 250px; */
@@ -213,6 +214,7 @@ nav > a:hover{
 }
 .texto{
     max-width: 500px;
+    font-size: 30px;
 }
 @media screen and (max-width:900px){
     .conteiner{
@@ -339,6 +341,22 @@ hr{
     background-image: url(../assets/img/23-gennaio-Poggio-ala-croce/20220123_114235.jpg);
     background-position-y: 95%;
 }
+#top2Card1{
+    background-image: url(../assets/img/7-maggio-nel-castello/IMG-20220525-WA0021.jpg);
+    /* background-position-x: 80%; */
+}
+#top2Card2{
+    background-image: url(../assets/img/22-maggio-nel-fiume/IMG-20220525-WA0019.jpg);
+    /* background-position-x: 80%; */
+}
+#top2Card3{
+    background-image: url(../assets/img/20-maggio-A-Parma/per-il-sito/IMG-20220525-WA0006.jpg);
+    background-position-y: 5%;
+}
+#top2Card4{
+    background-image: url(../assets/img/20-maggio-A-Parma/IMG-20220525-WA0017.jpg);
+    background-position-y: 20%;
+}
 /* -------------------------------------------------
            RODAPÉ
 ------------------------------------------------- */
@@ -365,7 +383,7 @@ footer{
     padding: 20px 0;
     font-size: 60px;
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:660px) {
     footer{
         font-size: 24px;
         text-align: left;
