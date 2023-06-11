@@ -29,7 +29,8 @@ p{
     background-image: url(../assets/carta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y:center;
+    background-position-x:45%;
     text-align: center;
     align-items: center;
     /* padding-top: 470px; */
@@ -257,6 +258,72 @@ hr{
     }
     
 }
+.cards{
+    /* border: 0.5px solid black ; */
+    /* border-radius: 10px; */
+    margin: 0 auto;
+    width: 80vw;
+    padding: 1rem 0.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+.card{
+    border: 0.5px solid black ;
+    /* background-color: #c92dc9; */
+    width: 300px;
+    height: 200px;
+    position: relative;
+    padding: 2rem 0.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .card:not(:first-child){
+    margin-left: -3px;
+} */
+.card:hover{
+    width: 350px;
+    height: 215px;
+    
+}
+.card:hover ~ .card{
+    left: -9px;
+}
+@media screen and (max-width: 500px) {
+    .card:hover ~ .card{
+        left: 0;
+    }   
+    .card{
+        margin-left: 0;
+    } 
+}
+/* --------  LISTA DE BKGROUND IMG  ------------ */
+#top1Card1{
+    background-image: url(../assets/img/nos-conhecemos/IMG-20220716-WA0015.jpg);
+    background-position-x: 67%;
+}
+#top1Card2{
+    background-image: url(../assets/img/nos-conhecemos/IMG-20220716-WA0018.jpg);
+    background-position-x: 80%;
+}
+#top1Card3{
+    background-image: url(../assets/img/braceletti/20220524_115707.jpg);
+    /* background-position-x: 80%; */
+}
+#top1Card4{
+    background-image: url(../assets/img/braceletti/IMG-20220410-WA0008.jpg);
+    /* background-position-x: 80%; */
+}
 /* -------------------------------------------------
            RODAPÉ
 ------------------------------------------------- */
+footer{
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 60px;
+}
